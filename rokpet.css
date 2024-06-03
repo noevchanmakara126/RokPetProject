@@ -1,0 +1,289 @@
+* {
+  font-family: Kantumruy Pro;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #375a82;
+}
+
+/* body {
+  width: 100%;
+} */
+.pic-cover {
+  width: 100%;
+  height: 512px;
+  object-fit: cover;
+}
+
+.contain {
+  width: 100%;
+  height: 74px;
+  left: 280px;
+  top: 1502px;
+  box-shadow: 5px 6px 7px rgba(68, 67, 67, 0.434);
+}
+
+.nav-logo {
+  width: 150px;
+  height: auto;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000; /* Adjust the color as needed */
+}
+.all-nav {
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  color: black;
+}
+.nav2 {
+  color: white;
+  background-color: #003366;
+}
+.list {
+  display: flex;
+}
+
+/* .list2 {
+  width: 880px;
+  height: 80px;
+  font-size: 24px;
+  border-radius: 15px;
+  background-color: #375a82;
+  margin: auto;
+  color: white;
+}
+
+.list2 .nav li {
+  color: white;
+} */
+
+.full-card {
+  display: flex;
+
+  margin-top: 30px;
+  margin-bottom: 0;
+  gap: 20px;
+}
+.card-full {
+  height: 412px;
+  width: 367px;
+  color: #375a82;
+
+  /* margin: 0 auto; */
+}
+.card {
+  width: 367px;
+  height: 450px;
+  color: #375a82;
+}
+.card .covevzin {
+  position: relative;
+  text-align: center;
+}
+.coverText {
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 53%;
+  text-align: center;
+  color: #fff9d0;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.card:hover {
+  box-shadow: 5px 6px 7px rgba(68, 67, 67, 0.434);
+}
+.card-body {
+  width: 367px;
+  height: 212px;
+  padding: 10px;
+  color: var(--primary-color);
+}
+
+.card-infor {
+  font-size: 12px;
+}
+.infor-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 8px 0;
+}
+
+.list {
+  padding: 0 20px;
+}
+.foot {
+  width: 100%;
+  height: 304px;
+  margin: auto;
+  /* display: flex; */
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.hosptital {
+  margin-top: 48 px;
+}
+.foot-infor {
+  width: 100%;
+  display: flex;
+  padding: 30px;
+
+  justify-content: space-between;
+}
+.foot-content {
+  padding-top: 50px;
+}
+.foot-element {
+  list-style-type: none;
+}
+.foot-element p {
+  font-size: 24px;
+}
+.foot-list {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.foot-resourse {
+  display: block;
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.foot-logo {
+  list-style-type: none;
+  display: flex;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.foot-support {
+  display: flex;
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.logo1 img {
+  height: 60px;
+  width: 55px;
+}
+.logo2 img {
+  height: 56px;
+  width: 51px;
+}
+.logo3 img {
+  height: 72px;
+  width: 55px;
+}
+.smart img {
+  height: 72px;
+  width: 55px;
+}
+.pkay img {
+  height: 55px;
+  width: 72px;
+}
+.about-logo img {
+  height: 94px;
+  align-items: center;
+}
+.des {
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+.about-logo {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  justify-content: center;
+  /* display: block; */
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0; */
+}
+.about-page {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #003366;
+}
+.form-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+.contact-info {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-info span {
+  display: block;
+}
+.contact-info span i {
+  margin-right: 5px;
+}
+@media (max-width: 767px) {
+  .object-fit-md-cover {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .object-fit-md-cover {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .object-fit-md-cover {
+    width: 462px;
+    height: 271.26px;
+  }
+}
